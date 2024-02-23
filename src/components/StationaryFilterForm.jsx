@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function StationaryFilterForm({ filters, onFilterChange }) {
   return (
     <form>

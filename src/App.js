@@ -1,5 +1,5 @@
 import './App.css';
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import StationaryCollection from './components/StationaryCollection';
 import StationaryFilterForm from './components/StationaryFilterForm';
 import data from './data.json';

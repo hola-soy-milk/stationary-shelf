@@ -1,5 +1,3 @@
-// Component that shows a table of stationary objects, structure from data.json
-
 import React from 'react';
 
 export default function StationaryCollection({ items }) {
