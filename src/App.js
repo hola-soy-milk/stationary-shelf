@@ -1,22 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import { useEffect, useState } from 'react';
+import StationaryCollection from './components/StationaryCollection';
+import StationaryFilterForm from './components/StationaryFilterForm';
+import data from './data.json';
 
 function App() {
+  const [items, setItems] = useState(data);
+  const [filters, setFilters] = useState({ type: '', brand: '', color: '' });
+
+  const handleFilterChange = (event) => {
+    setFilters({ ...filters, [event.target.name]: event.target.value });
+  };
+
+  useEffect(() => {
+    const filteredItems = data.filter((item) => {
+      return (
+        item.type?.includes(filters.type) &&
+        item.brand?.includes(filters.brand) &&
+        item.color?.includes(filters.color)
+      );
+    });
+    setItems(filteredItems);
+  }, []);
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Stationary Collection!</h1>
+        <StationaryFilterForm
+          filters={filters}
+          onFilterChange={handleFilterChange}
+        />
+        <StationaryCollection items={data} />
       </header>
     </div>
   );

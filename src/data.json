@@ -1,0 +1,138 @@
+[
+  {
+    "type": "pen",
+    "brand": "pilot",
+    "color": "blue",
+    "amount": 1
+  },
+  {
+    "type": "washi tape",
+    "color": "floral",
+    "amount": 1
+  },
+  {
+    "type": "stamp",
+    "color": "red",
+    "amount": 1
+  },
+  {
+    "type": "pencil",
+    "brand": "faber-castell",
+    "amount": 1
+  },
+  {
+    "type": "highlighter",
+    "color": "yellow",
+    "amount": 1
+  },
+  {
+    "type": "notebook",
+    "amount": 1
+  },
+  {
+    "type": "paperclip",
+    "color": "gold",
+    "amount": 50
+  },
+  {
+    "type": "sticky note",
+    "color": "neon pink",
+    "amount": 100
+  },
+  {
+    "type": "eraser",
+    "brand": "staedtler",
+    "color": "white",
+    "amount": 1
+  },
+  {
+    "type": "ruler",
+    "brand": "maped",
+    "color": "transparent",
+    "amount": 1
+  },
+  {
+    "type": "sharpener",
+    "brand": "pentel",
+    "color": "pink",
+    "amount": 1
+  },
+  {
+    "type": "scissors",
+    "brand": "fiskars",
+    "color": "orange",
+    "amount": 1
+  },
+  {
+    "type": "glue stick",
+    "brand": "uhu",
+    "color": "clear",
+    "amount": 1
+  },
+  {
+    "type": "post-it note",
+    "brand": "3m",
+    "color": "yellow",
+    "amount": 100
+  },
+  {
+    "type": "marker",
+    "brand": "sharpie",
+    "color": "black",
+    "amount": 1
+  },
+  {
+    "type": "binder clip",
+    "brand": "amazonbasics",
+    "color": "silver",
+    "amount": 10
+  },
+  {
+    "type": "pushpin",
+    "brand": "office depot",
+    "color": "red",
+    "amount": 50
+  },
+  {
+    "type": "stapler",
+    "brand": "swingline",
+    "color": "black",
+    "amount": 1
+  },
+  {
+    "type": "tape dispenser",
+    "brand": "scotch",
+    "color": "white",
+    "amount": 1
+  },
+  {
+    "type": "hole puncher",
+    "brand": "gheavy",
+    "color": "blue",
+    "amount": 1
+  },
+  {
+    "type": "pencil case",
+    "brand": "jansport",
+    "color": "black",
+    "amount": 1
+  },
+  {
+    "type": "desk organizer",
+    "brand": "honeycomb",
+    "color": "white",
+    "amount": 1
+  },
+  {
+    "type": "desk lamp",
+    "brand": "ikea",
+    "color": "black",
+    "amount": 1
+  },
+  {
+    "type": "calculator",
+    "brand": "casio",
+    "color": "black",
+    "amount": 1
+  }
+]
